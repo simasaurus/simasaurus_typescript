@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "outDir": "website"
+  },
+  "include": ["source/**/*"],
+  "exclude": ["node_modules"]
+}
